@@ -1,0 +1,30 @@
+.topnav {
+  font-size: 25px;
+  font-family: Comic Sans MS,cursive,sans-serif;
+  font-weight: bolder;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+
+.topnav a:hover {
+  background-color: lightcyan;
+  color: darkcyan;
+  
+}
+
+p{
+  font-size: 20px;
+  font-family: Comic Sans MS,cursive,sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
+body{
+  background-image: url("abt.jpg");
+}

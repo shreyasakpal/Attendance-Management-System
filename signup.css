@@ -1,0 +1,106 @@
+/*signup*/
+
+
+
+.signup{
+  font-family:"Comic Sans MS", cursive, sans-serif;
+  color : darkcyan;
+}
+
+input[type=text], input[type=password], input[type=email] {
+  width: 90%;
+  padding: 18px;
+  margin: 20px 0 22px ;
+  text-align: center;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus {
+  background-color: lightcyan;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+p {
+  
+  background-color: white;
+  border-radius: 10px;
+  color: #3b7687;
+  padding-left: 22px;
+  padding-top: 20px;
+  margin: 10px 0;
+  border: none;
+  cursor: pointer;
+  width: auto;
+  opacity: 0.9;
+}
+
+p:hover {
+  opacity:20;
+}
+
+div {
+  
+  border-radius:10px;
+  width: 600px;
+  border: 10%;
+  padding: 15px;
+  margin-left: 30%;
+  margin-top: 70px;
+}
+
+.button2 {
+  background-color: #AFEEEE; 
+  color: black; 
+  margin-left: 38%;
+  margin-top: 10px;
+  border: 2px solid #3b7687;
+  border-radius: 10px;
+  color: darkcyan;
+  font-size: 30px;
+  font-family:"Comic Sans MS", cursive, sans-serif;
+}
+
+.button3:hover {
+	background-color: darkcyan;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+ 	border-radius: 12px;
+  	color: aqua;
+}
+
+.q {
+	margin-left: 2px;
+}
+ input{
+ 	font-family:"Comic Sans MS", cursive, sans-serif;
+ 	font-size: 15px;
+ }
+
+header{
+	text-align: center;
+	color: lightcyan;
+	
+}
+
+.topnav {
+  font-size: 25px;
+  font-family: Comic Sans MS,cursive,sans-serif;
+  font-weight: bolder;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+
+.topnav a:hover {
+  background-color: lightcyan;
+  color: darkcyan;
+  
+}

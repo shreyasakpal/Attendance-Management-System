@@ -1,0 +1,108 @@
+<!Doctype html>
+<html lang="en">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/sub.css">
+
+<head>
+	<title>home1</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+ 	</head>
+
+<body>
+
+
+	<span class="topnav">
+
+<span class="topnav">
+
+	
+        <a href="home1.html">HOME</a> 
+        
+        <a href="uploadt.html">POST</a> &nbsp; &nbsp; &nbsp;
+        <a href="attendance.html">Timetable</a> &nbsp; &nbsp; &nbsp;
+        <a href="mooc.html">MOOC Courses</a>
+        <a href="Syllabus.html">Syllabus</a>  
+        <SCRIPT 
+
+LANGUAGE="JavaScript">
+
+var timerID = null;
+var timerRunning = false;
+
+function stopclock ()
+{
+if(timerRunning)
+clearTimeout(timerID);
+timerRunning = false;
+}
+
+function showtime () 
+{
+var now = new Date();
+var hours = now.getHours();
+var minutes = now.getMinutes();
+var seconds = now.getSeconds()
+
+var timeValue = "" + ((hours >12) ? hours -12 :hours)
+timeValue += ((minutes < 10) ? ":0" : ":") + minutes
+timeValue += ((seconds < 10) ? ":0" : ":") + seconds
+timeValue += (hours >= 12) ? " P.M." : " A.M."
+document.clock.face.value = timeValue;
+
+// you could replace the above with this
+// and have a clock on the status bar:
+// window.status = timeValue;
+
+timerID = setTimeout("showtime()",1000);
+timerRunning = true;
+}
+
+function startclock () 
+{
+// Make sure the clock is stopped
+stopclock();
+showtime();
+}
+
+</SCRIPT>
+
+<BODY onLoad="startclock(); timerONE=window.setTimeout"
+
+TEXT="ffffff">
+
+<CENTER><form name="clock" onSubmit="0">
+<input type="text" name="face" size=13 value=""></CENTER>  
+    </span>	
+
+	</span>
+
+	
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+<!-- this script got from www.javascriptfreecode.com-Coded by: Krishna Eydat -->
+
+
+
+
+
+<br>
+<br>
+
+	<a href="t1attendance.php"><button class="bt">Class 1</button></a>
+	<br>
+	<br>
+	<a href="t2attendance.php"><button class="bt">Class 2</button></a>
+	
+
+	
+
+	
+</body>
+</html>

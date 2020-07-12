@@ -1,0 +1,142 @@
+
+<!Doctype html>
+<html lang="en">
+<meta charset="UTF-8">
+<head>
+    <title>SignUp</title>
+    <link rel="stylesheet" href="css/signup.css">
+</head>
+<style>
+    body {
+         background-image: url("college3.jpg"), url("bac7.jpg");
+      background-blend-mode: luminosity;
+              background-repeat: no-repeat;
+          background-attachment: scroll;
+            background-size: cover;
+
+
+    }
+</style>
+<body class="signup">
+    
+    
+    <h1> 
+    <span class="topnav"> 
+        <a href="home1.html">HOME</a> 
+        <a href="about.html">ABOUT</a> 
+        <a href="help.html">HELP</a>
+        <a href="mooc.html">MOOC Courses</a>
+        <a href="Syllabus.html">Syllabus</a>
+        <a href="home1.html">Login</a>
+    </span>
+    <br>
+    <br>
+    </h1>
+    <form action="signup.php" method="POST" >
+                    
+                <div>
+            
+                <header>            
+            <b>
+            <font size= 60px color="cyan" >
+                SIGNUP
+            </font>     
+                
+            </b>
+            <br>
+            <font size= 4px color="cyan" class="q">
+                * MANDATORY FIELDS
+            </font>
+        </header>
+            <br>
+            <p>
+            <b>
+                <label for="name">FIRST NAME<sup>*</sup>:</label>
+            </b>
+                <input type="text" name="fname" placeholder="enter your first name" required>
+                <br>
+                <b>
+                <label for="name">LAST NAME<sup>*</sup>:</label>
+            </b>
+                <input type="text" name="lname" placeholder="enter your last name">
+                <br>
+            <b>
+                <label for="name">USER NAME<sup>*</sup>:</label>
+            </b>
+                <input type="text" name="username" placeholder="enter your username" required>
+                <br>
+            <b>
+                <label for="name">MOBILE NO<sup>*</sup>:</label>
+            </b>
+                <input type="text" name="m_no" placeholder="enter your mobile Number" required>
+                <br>
+            <b>
+                <label for="name">EMAIL ID<sup>*</sup>:</label>
+            </b>
+                <input type="email" name="e_mail" placeholder="enter your email id" required>
+                <br>    
+            <b>
+                <label for="name">COLLEGE<sup>*</sup>:</label>
+            </b>
+                <input type="text" name="college" placeholder="enter your college name" required>
+                <br>
+            <b>
+                    Class:<select name="class">
+                    <option value="none">None</option> 
+                    <option value="class1">Class 1</option>
+                    <option value="class2">Class 2</option>
+                    </select>
+            </b> <br><br>
+                        <b>
+                        Branch:<select name="branch">
+                        <option value="none">None</option>  
+                        <option value="inft">INFT</option>
+                        <option value="cmpn">CMPN</option>
+                        <option value="elex">ELEX</option>
+                        <option value="elec">ELEC</option>
+                        <option value="extc">EXTC</option>
+                        </select>
+                    </b>
+                        <br><br>
+                    <b>
+                <label for="name">Roll no:</label>
+                <input type="text" name="r_no" placeholder="enter your roll no" >
+                </b>
+                <br>
+            <b>
+                    <label for="name">GENDER<sup>*</sup>:</label>
+            </b>
+                    <input type="radio" name="gender" value="m" required> male
+                    <input type="radio" name="gender" value="f" required > female
+                <br>
+                <br>
+            <b>
+                <label for="name">PROFESSION<sup>*</sup>:</label>
+            </b>
+                <input type="radio" name="prof" value="student" required > student
+                <input type="radio" name="prof" value="teacher" required> teacher
+                <br>
+                <br>
+            <b>
+                <label for="name">PASSWORD<sup>*</sup>:</label>
+            </b>
+                <input type="Password" name="password" placeholder="enter your password" required>
+            </p>    
+            <b>
+                <a href ="home.html">
+                <button class="button2 button3">SIGN-UP</button>
+                </a>
+                <br>
+                <br>
+               <font color="white"> Already have a Account? <a href="home1.html" >Log In</a>
+            </b>
+                </font>
+            
+        </div>
+            
+                
+
+
+
+</body>
+</html>
